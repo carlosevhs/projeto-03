@@ -1,0 +1,52 @@
+body {
+    font-family: roboto, sans-serif;
+}
+
+.navbar, footer {
+    background-color: rgba(0, 0, 0, 0.952);
+}
+
+#cabecalho .nav .nav-link.active,
+.nav-produtos .nav-link.active {
+    background-color: red;
+    color: #fff;
+}
+.nav-produtos .nav-link:hover {
+    color: red;
+}
+.nav-produtos .nav-link.active:hover {
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link {
+    color: #fff;
+}
+
+.section-title, .navbar-brand:hover {
+    font-family: 'Monoton', cursive;
+    color: red;
+}
+
+.text-colored {
+    color: red;
+}
+
+.navbar-toggler {
+    background-color: red;
+}
+
+.section-title span, .redes-sociais {
+    color: black;
+}
+
+.redes-sociais {
+    text-decoration: none;
+}
+
+#produtos{
+    background-color: rgba(250, 235, 215, 0.493);
+}
+
+textarea {
+    resize: none;
+}

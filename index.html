@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mad Monkey - Sua Loja de Suplementos</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+
+
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fs-1 section-title">MAD MONKEY</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex ">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i> 
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#praticipacoes" class="nav-link ">
+                            <i class="bi bi-calendar-check me-1"></i> 
+                            Participações
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link ">
+                            <i class="bi bi-card-text me-1"></i> 
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link ">
+                            <i class="bi bi-chat-left-text me-1"></i> 
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+        <section id="sobre-a-loja">
+            <div id="carousel-loja" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./imagens/carousel/slide04.jpg" alt="homem se apoiando em uma barra">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./imagens/carousel/slide01.jpg" alt="mulher pegando peso">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./imagens/carousel/slide03.jpg" alt="frase motivacional e homem do lado">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./imagens/carousel/slide02.jpg" alt="mulher fazendo exercicio">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-loja" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-loja" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-loja" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-loja" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-loja" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel-loja" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./imagens/fachada.jpg" class="d-block w-100 rounded mb-3" alt="Foto da fachada do restaurante">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="section-title">Nossa <span>história</span></h2>
+                            <p>
+                                É com um grande prazer que quero lhe apresentar a <strong>Mad Monkey</strong>, uma incrivel loja de suplementos e materiais esportivos que surgiu para atender todo seu público com produtos de qualidade, entrega rápida e preço justo. Fundada em 2023 temos como objetivo prestar um atendimento de qualidade aos nossos clientes e amigos.
+                            </p>
+                            <p>
+                                Contamos com um suporte técnico de nutricionista para que sejam tiradas todas as dúvidas e prestadas as orientações necessárias para uma boa experiência de compra. Agradecemos a sua preferência.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="praticipacoes" >
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center pb-5"> Nossas <span>Participações</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded" src="./imagens/eventos/academia.jpg" alt="">
+                        <h3 class="section-title pt-3 pb-3 fs-4">Academias</h3>
+                        <p>
+                            Paricipamos de vários eventos de academia, desde cardio coletivos até competições de máximo peso para uma repetição.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded" src="./imagens/eventos/crossfit.jpg" alt="">
+                        <h3 class="section-title pt-3 pb-3 fs-4"><span>Cross</span> Fit</h3>
+                        <p>
+                            Em competições de crossfit, além de termos competidores da nossa equipe participando, também fornecemos suplementos para os atletas.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded" src="./imagens/eventos/corrida.jpg" alt="">
+                        <h3 class="section-title pt-3 pb-3 fs-4">Corridas</h3>
+                        <p>
+                            Também estamos presentes nas corridas de rua como patrocinadores.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5 mt-5">Produtos</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-3 ">
+                        <nav class="nav nav-pills flex-column nav-produtos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#creatinas" class="text-start nav-link text-colored fw-bold active">Creatinas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#proteinas" class="text-start nav-link text-colored fw-bold">Proteinas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#hipercalorico" class="text-start nav-link text-colored fw-bold">Hipercalóricos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#acessorios" class="text-start nav-link text-colored fw-bold">Acessórios</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pre-treinos" class="text-start nav-link text-colored fw-bold">Pré-treinos</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-9">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="creatinas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/creatina/creatina-max.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Creatina max titanuim</h5>
+                                        <p> 
+                                            Creatina Max Titanuim 300g
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$99,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/creatina/creatina-integral-medica.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Creatina Integral Medica</h5>
+                                        <p> 
+                                            Creatina Integral Medica 300g
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$89,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/creatina/creatina-probiotica.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Creatina Probiótica</h5>
+                                        <p> 
+                                            Creatina Probiótica 300g
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$104,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/creatina/creatina-vitafor.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Creatina Vitafor</h5>
+                                        <p> 
+                                            Creatina Vitafor 300g
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$129,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/creatina/Creatina-black-skull.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Creatina Black Skull</h5>
+                                        <p> 
+                                            Creatina Black Skull 300g
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$99,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="proteinas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/whey/whey-atlhetica.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Whey Atlhetica Nutrition </h5>
+                                        <p> 
+                                            Whey protein 900g Atlhetica Nutrition 
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$199,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/whey/whey-gold.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Whey Optimun Nutrition </h5>
+                                        <p> 
+                                            Whey protein 900g Optimun Nutrition 
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$239,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/whey/whey-growth.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Whey Growth Suplementos </h5>
+                                        <p> 
+                                            Whey protein 900g Growth Suplementos 
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$129,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/whey/whey-health.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Whey Health </h5>
+                                        <p> 
+                                            Whey protein 900g Health 
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$119,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/whey/whey-integral-medica.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Whey Integral Médica </h5>
+                                        <p> 
+                                            Whey protein 900g Integral Médica 
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$119,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/whey/whey-max.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Whey Max Titanium </h5>
+                                        <p> 
+                                            Whey protein 900g Max Titanium 
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$124,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/whey/whey-pro-biotica.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Whey Probiótica </h5>
+                                        <p> 
+                                            Whey protein 900g Probiótica 
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$139,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/whey/whey-vitafor.webp" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Whey Vitafor </h5>
+                                        <p> 
+                                            Whey protein 900g Vitafor 
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$199,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="hipercalorico">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/hipercalorico/hipercalorico-darkness.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Hipercalóricos Darkness</h5>
+                                        <p> 
+                                            Hipercalóricos Darkness
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$99,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/hipercalorico/hipercalorico-integral.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Hipercalóricos Integral Médica</h5>
+                                        <p> 
+                                            Hipercalóricos Integral Médica
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$89,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/hipercalorico/hipercalorico-max.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Hipercalóricos Max Titanuim</h5>
+                                        <p> 
+                                            Hipercalóricos Max Titanuim Zero Lactose
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$159,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/hipercalorico/hipercalorico-max2.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Hipercalóricos Max Titanium </h5>
+                                        <p> 
+                                            Hipercalóricos Max Titanium 
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$109,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/hipercalorico/hipercalorico-pro.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Hipercalóricos Probiótica</h5>
+                                        <p> 
+                                            Hipercalóricos Probiótica
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$99,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>                           
+                            <div class="tab-pane" id="acessorios">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/acessórios/garrafa-max.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Garrafa Max Titanium</h5>
+                                        <p> 
+                                            Garrafa Max Titanium 
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$19,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/acessórios/garrafa-nuclear.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Garrada Nuclear Rush</h5>
+                                        <p> 
+                                            Garrada Nuclear Rush
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$19,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/acessórios/galao-body-action.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Galão Body Action</h5>
+                                        <p> 
+                                            Galão Body Action
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$29,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/acessórios/galao-max.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Galão Max Titanium</h5>
+                                        <p> 
+                                            Galão Max Titanium
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$29,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pre-treinos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pre-treino/pre-bope.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Pré-treino Bope</h5>
+                                        <p> 
+                                            Pré-treino Bope Black Skull
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$99,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pre-treino/pre-c4.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Pré-treino C4</h5>
+                                        <p> 
+                                            Pré-treino C4 Celucor 150g
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$79,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pre-treino/pre-epic.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Pré-treino Epic</h5>
+                                        <p> 
+                                            Pré-treino Epic
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$89,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pre-treino/pre-horus.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Pré-treino Horus</h5>
+                                        <p> 
+                                            Pré-treino Horus Max Titanium 300g
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$119,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pre-treino/pre-isane.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Pré-treino Insane</h5>
+                                        <p> 
+                                            Pré-treino Insane 150g
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$69,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pre-treino/pre-nuclear.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Pré-treino Nuclear Rush</h5>
+                                        <p> 
+                                            Pré-treino Nuclear Rush 300g
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$149,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pre-treino/pre-panic.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Pré-treino Panic</h5>
+                                        <p> 
+                                            Pré-treino Panic 300g
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$129,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pre-treino/pre-prohibido.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> Pré-treino Prohibido</h5>
+                                        <p> 
+                                            Pré-treino Prohibido 300g
+                                        </p>
+                                        <p>
+                                            <strong class="fs-3">
+                                                R$129,90
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-success fw-bold">Adicionar ao carrinho</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        <section id="fale-conosco" class="mt-2">
+            <div class="container">
+                <div class="row text-center">
+                    <h2 class="section-title">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="text-colored fw-bold text-center">Mande sua mensagem</h3>
+                        <p>Deixe seu comentário, sugestão ou dúvida</p>
+                        <form>
+                            <label for="nome" class="form-label mt-2">Seu nome:</label>
+                            <input type="text" id="nome" class="form-control" placeholder="Digite seu nome" name="nome"/><p></p>
+                            <label for="email" class="form-label mt-2">Seu e-mail:</label>
+                            <input type="email" id="email" class="form-control" placeholder="Digite seu e-mail" name="email"/><p></p>
+                            <label for="telefone" class="form-label mt-2">Seu telefone:</label>
+                            <input type="tel" id="telefone" class="form-control" name="telefone"/><p></p>
+                            <label for="mensagem" class="form-label mt-2">Sua mensagem:</label>
+                            <textarea type="text" id="mensagem" class="form-control mt-2" placeholder="Digite sua menssagem" name="menssagem"></textarea><p></p>
+                            <button type="submit" class="btn btn-danger fw-bold mt-2 mb-4">ENVIAR</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="text-colored fw-bold text-center">Siga nossas redes sociais</h3>
+                        <ul class="nav d-block">
+                            <li class="nav-item ms-3">
+                                <a href="#" class="redes-sociais"><i class=" me-3 text-colored bi fs-2 bi-facebook"></i>Curta nossa página do facebook</a>
+                            </li>
+                            <li class="nav-item ms-3">
+                                <a href="#" class="redes-sociais"><i class=" me-3 text-colored bi fs-2 bi-instagram"></i>Siga nosso perfil no instagram</a>
+                            </li>
+                            <li class="nav-item ms-3">
+                                <a href="#" class="redes-sociais"><i class=" me-3 text-colored bi fs-2 bi-youtube"></i>Se inscreva no nosso canal do Youtube</a>
+                            </li>
+                            <li class="nav-item ms-3">
+                                <a href="#" class="redes-sociais"><i class=" me-3 text-colored bi fs-2 bi-whatsapp"></i>Entre em contato através do nosso Whatsapp</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container p-2 text-colored mt-2">
+            2023 &copy; - Todos os direitos reservados
+        </div>
+    </footer>
+
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
